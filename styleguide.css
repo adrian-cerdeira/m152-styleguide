@@ -34,7 +34,27 @@ h1 {
 /**
     Colors
  */
-
+.color {
+    display: inline-block;
+    width: 100px;
+    height: 18px;
+    float: right;
+}
+.color-primary {
+    background-color: #3EB36A;
+}
+.color-secondary {
+    background-color: #82FFB2;
+}
+.color-background {
+    background-color: #9CFFC2;
+}
+.color-contrast-1 {
+    background-color: #B31F17;
+}
+.color-contrast-2 {
+    background-color: #FF4E45;
+}
 
 /**
     Images
@@ -52,3 +72,35 @@ h1 {
 /**
     Buttons
  */
+.button {
+    display: inline-block;
+    padding: 15px 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.25s;
+    margin-bottom: 5px;
+}
+
+/** Sizes **/
+.button-small {
+    padding: 5px 10px;
+}
+.button-big {
+    padding: 25px 25px;
+}
+
+/** Colors **/
+.button-primary {
+    background-color: #82FFB2;
+}
+.button-primary:hover {
+    background-color: #abffcb;
+}
+.button-secondary {
+    background-color: #B31F17;
+    color: white;
+}
+.button-secondary:hover {
+    background-color: #FF4E45;
+}
