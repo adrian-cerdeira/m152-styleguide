@@ -1,0 +1,54 @@
+
+/**
+    Presentation Styles
+ */
+#content {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+}
+.entry {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/**
+    Global Styles
+ */
+* {
+    font-family: Arial;
+}
+
+/**
+    Typographie
+ */
+h1 {
+    color: #3EB36A;
+    font-size: 30px;
+    padding-bottom: 36px;
+}
+
+
+/**
+    Colors
+ */
+
+
+/**
+    Images
+ */
+
+
+/**
+    Layout
+ */
+
+/**
+    Tables
+ */
+
+/**
+    Buttons
+ */
