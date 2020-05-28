@@ -1,6 +1,7 @@
 
 /**
     Presentation Styles
+    (Gehören nicht zum Styleguide)
  */
 #content {
     width: 800px;
@@ -59,11 +60,32 @@ h1 {
 /**
     Images
  */
+span.image {
+    position: relative;
+    border-radius: 15px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
 
+span.image span.caption {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    padding: 8px 0px;
+    display: inline-block;
+    line-height: normal;
+}
 
-/**
-    Layout
- */
+span.image-invert span.caption {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+}
 
 /**
     Tables
@@ -103,4 +125,11 @@ h1 {
 }
 .button-secondary:hover {
     background-color: #FF4E45;
+}
+.button-light {
+    background-color: #FF4E45;
+    color: white;
+}
+.button-light:hover {
+    background-color: #ea3d34;
 }
