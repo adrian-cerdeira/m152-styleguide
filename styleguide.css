@@ -60,36 +60,64 @@ h1 {
 /**
     Images
  */
-span.image {
+div.image {
     position: relative;
-    border-radius: 15px;
     display: inline-block;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    line-height: 0;
-}
 
-span.image span.caption {
+    border-radius: 15px;
+    line-height: 0;
+    overflow: hidden;
+}
+div.image span.caption {
     position: absolute;
     left: 0;
+    bottom: 0px;
     text-align: center;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.2);
-    width: 100%;
-    padding: 8px 0px;
     display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
     line-height: normal;
 }
 
-span.image-invert span.caption {
-    background-color: rgba(255,255,255,0.2);
-    color: white;
+div.image-invert span.caption {
+    background: rgba(255,255,255,0.3);
 }
+
+/**
+    Videos
+ */
 
 /**
     Tables
  */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.table th {
+    text-align: left;
+    font-weight: normal;
+    background-color: #666;
+    color: white;
+    padding: 10px 15px;
+}
+.table tbody tr {
+    border-bottom: 1px solid #666;
+}
+.table tbody tr td {
+    padding: 10px 15px;
+}
+
+
+.table td.cell-right {
+    text-align: right;
+}
+.table-striped tbody tr:nth-child(even) {
+    background-color: #eee;
+}
 
 /**
     Buttons
