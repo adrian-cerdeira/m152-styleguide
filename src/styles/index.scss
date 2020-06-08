@@ -1,4 +1,3 @@
-
 /**
     Presentation Styles
     (Gehören nicht zum Styleguide)
@@ -9,6 +8,7 @@
     left: 50%;
     margin-left: -400px;
 }
+
 .entry {
     padding-bottom: 20px;
     border-bottom: 1px solid black;
@@ -41,18 +41,23 @@ h1 {
     height: 18px;
     float: right;
 }
+
 .color-primary {
     background-color: #3EB36A;
 }
+
 .color-secondary {
     background-color: #82FFB2;
 }
+
 .color-background {
     background-color: #9CFFC2;
 }
+
 .color-contrast-1 {
     background-color: #B31F17;
 }
+
 .color-contrast-2 {
     background-color: #FF4E45;
 }
@@ -68,6 +73,7 @@ div.image {
     line-height: 0;
     overflow: hidden;
 }
+
 div.image span.caption {
     position: absolute;
     left: 0;
@@ -76,13 +82,13 @@ div.image span.caption {
     display: inline-block;
     width: 100%;
     padding: 10px 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     line-height: normal;
 }
 
 div.image-invert span.caption {
-    background: rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 /**
@@ -97,6 +103,7 @@ div.image-invert span.caption {
     border-collapse: collapse;
     margin-bottom: 20px;
 }
+
 .table th {
     text-align: left;
     font-weight: normal;
@@ -104,9 +111,11 @@ div.image-invert span.caption {
     color: white;
     padding: 10px 15px;
 }
+
 .table tbody tr {
     border-bottom: 1px solid #666;
 }
+
 .table tbody tr td {
     padding: 10px 15px;
 }
@@ -115,6 +124,7 @@ div.image-invert span.caption {
 .table td.cell-right {
     text-align: right;
 }
+
 .table-striped tbody tr:nth-child(even) {
     background-color: #eee;
 }
@@ -136,6 +146,7 @@ div.image-invert span.caption {
 .button-small {
     padding: 5px 10px;
 }
+
 .button-big {
     padding: 25px 25px;
 }
@@ -144,20 +155,25 @@ div.image-invert span.caption {
 .button-primary {
     background-color: #82FFB2;
 }
+
 .button-primary:hover {
     background-color: #abffcb;
 }
+
 .button-secondary {
     background-color: #B31F17;
     color: white;
 }
+
 .button-secondary:hover {
     background-color: #FF4E45;
 }
+
 .button-light {
     background-color: #FF4E45;
     color: white;
 }
+
 .button-light:hover {
     background-color: #ea3d34;
 }
