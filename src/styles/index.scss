@@ -1,36 +1,18 @@
-/**
-    Presentation Styles
-    (Gehören nicht zum Styleguide)
- */
-#content {
-    width: 800px;
-    position: absolute;
-    left: 50%;
-    margin-left: -400px;
-}
+@import './variables.scss';
 
-.entry {
-    padding-bottom: 20px;
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
-}
-
-/**
-    Global Styles
- */
-* {
-    font-family: Arial;
+/*** Global Styles ***/
+body {
+    font-family: $font;
 }
 
 /**
     Typographie
  */
 h1 {
-    color: #3EB36A;
+    color: $primary;
     font-size: 30px;
     padding-bottom: 36px;
 }
-
 
 /**
     Colors
@@ -43,23 +25,23 @@ h1 {
 }
 
 .color-primary {
-    background-color: #3EB36A;
+    background-color: $primary;
 }
 
 .color-secondary {
-    background-color: #82FFB2;
+    background-color: $secondary;
 }
 
 .color-background {
-    background-color: #9CFFC2;
+    background-color: $background;
 }
 
 .color-contrast-1 {
-    background-color: #B31F17;
+    background-color: $contrast_primary;
 }
 
 .color-contrast-2 {
-    background-color: #FF4E45;
+    background-color: $contrast_secondary;
 }
 
 /**
@@ -153,7 +135,7 @@ div.image-invert span.caption {
 
 /** Colors **/
 .button-primary {
-    background-color: #82FFB2;
+    background-color: $secondary;
 }
 
 .button-primary:hover {
@@ -161,16 +143,16 @@ div.image-invert span.caption {
 }
 
 .button-secondary {
-    background-color: #B31F17;
+    background-color: $contrast_primary;
     color: white;
 }
 
 .button-secondary:hover {
-    background-color: #FF4E45;
+    background-color: $contrast_secondary;
 }
 
 .button-light {
-    background-color: #FF4E45;
+    background-color: $contrast_secondary;
     color: white;
 }
 
