@@ -1,4 +1,32 @@
 /*** Navbar ***/
+.nav {
+    overflow: hidden;
+    background-color: $background;
+    text-transform: uppercase;
+
+    a.nav-brand {
+        float: left;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $primary;
+        text-align: center;
+        padding: 1.4rem 1.6rem;
+    }
+
+    a.nav-item {
+        float: left;
+        font-size: 1.7rem;
+        color: $primary;
+        text-align: center;
+        text-decoration: none;
+        padding: 2rem 1.6rem;
+    }
+
+    a.nav-item:hover {
+        background-color: $contrast_primary;
+        color: $contrast_secondary;
+    }
+}
 
 /*** Inhaltsbereich ***/
 
