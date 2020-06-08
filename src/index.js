@@ -1,1 +1,1 @@
-import './styles/styleguide.scss';
+import './styles/index.scss';
