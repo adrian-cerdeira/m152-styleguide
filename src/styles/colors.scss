@@ -1,0 +1,26 @@
+/*** Colors ***/
+.color {
+    display: inline-block;
+    width: 10rem;
+    height: 1.8rem;
+}
+
+.primary {
+    background-color: $primary;
+}
+
+.secondary {
+    background-color: $secondary;
+}
+
+.color-background {
+    background-color: $background;
+}
+
+.contrast-primary {
+    background-color: $contrast_primary;
+}
+
+.contrast-secondary {
+    background-color: $contrast_secondary;
+}

@@ -1,5 +1,6 @@
 @import './variables.scss';
 @import './layout.scss';
+@import './colors.scss';
 
 /*** Global Styles ***/
 body {
@@ -15,35 +16,6 @@ h1 {
     padding-bottom: 36px;
 }
 
-/**
-    Colors
- */
-.color {
-    display: inline-block;
-    width: 100px;
-    height: 18px;
-    float: right;
-}
-
-.color-primary {
-    background-color: $primary;
-}
-
-.color-secondary {
-    background-color: $secondary;
-}
-
-.color-background {
-    background-color: $background;
-}
-
-.color-contrast-1 {
-    background-color: $contrast_primary;
-}
-
-.color-contrast-2 {
-    background-color: $contrast_secondary;
-}
 
 /**
     Images
