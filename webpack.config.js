@@ -43,7 +43,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: 'src/index.html',
-            // favicon: 'src/favicon.ico',
+            favicon: 'src/favicon.ico',
             inlineSource: '.(js|css)$', // embed all javascript and css inline needs inline-source-plugin
             minify: {
                 collapseWhitespace: true
