@@ -1,9 +1,12 @@
 @import './variables.scss';
 @import './layout.scss';
 @import './colors.scss';
+@import './media.scss';
 
 /*** Global Styles ***/
 body {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
     font-family: $font;
 }
 
@@ -18,39 +21,6 @@ h1 {
     padding-bottom: 0;
 }
 
-
-/**
-    Images
- */
-div.image {
-    position: relative;
-    display: inline-block;
-
-    border-radius: 15px;
-    line-height: 0;
-    overflow: hidden;
-}
-
-div.image span.caption {
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    padding: 10px 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    line-height: normal;
-}
-
-div.image-invert span.caption {
-    background: rgba(255, 255, 255, 0.3);
-}
-
-/**
-    Videos
- */
 
 /**
     Tables

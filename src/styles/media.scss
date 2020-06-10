@@ -1,0 +1,32 @@
+/*** Images ***/
+.image {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+
+    .caption {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        padding: 1rem 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+}
+
+.image-dark {
+    .caption {
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
+
+/*** Videos ***/
+.video {
+    width: 56rem;
+    height: 31.5rem;
+    border-radius: 1.5rem;
+}
