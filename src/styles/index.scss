@@ -1,9 +1,4 @@
 @import './variables.scss';
-@import './layout.scss';
-@import './colors.scss';
-@import './media.scss';
-@import './typography.scss';
-@import './buttons.scss';
 
 /*** Global Styles ***/
 body {
@@ -12,36 +7,10 @@ body {
     font-family: $font;
 }
 
-/**
-    Tables
- */
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-.table th {
-    text-align: left;
-    font-weight: normal;
-    background-color: #666;
-    color: white;
-    padding: 10px 15px;
-}
-
-.table tbody tr {
-    border-bottom: 1px solid #666;
-}
-
-.table tbody tr td {
-    padding: 10px 15px;
-}
-
-
-.table td.cell-right {
-    text-align: right;
-}
-
-.table-striped tbody tr:nth-child(even) {
-    background-color: #eee;
-}
+/*** CSS Styleguid - Anforderungen ***/
+@import './layout.scss';
+@import './colors.scss';
+@import './media.scss';
+@import './typography.scss';
+@import './buttons.scss';
+@import './tables.scss';

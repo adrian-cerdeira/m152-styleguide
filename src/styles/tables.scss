@@ -1,0 +1,34 @@
+/*** Tables ***/
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+    th {
+        background-color: $background;
+        color: $primary;
+        padding: 1rem 1.5rem;
+    }
+
+    tr {
+        border-bottom: 1rem solid $background;
+    }
+
+    td {
+        padding: 1rem 1.5rem;
+    }
+}
+
+.table-striped {
+    tbody tr:nth-child(even) {
+        background-color: $background;
+    }
+}
+
+.table-bordered {
+    border: 0.1rem solid $contrast-primary;
+
+    tr {
+        border-bottom: 1rem solid $contrast-primary;
+    }
+}
