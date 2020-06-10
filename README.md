@@ -6,12 +6,12 @@ Projekt im Modul 152.
 
 Abgabe eines Styleguides mit Definition von folgenden Elementen:
 
-- Layout (Header, Navigation, Inhaltsbereich, Footer)
-- Farbschema
-- Bilder und Videos
-- Typographie
-- Buttons und Links
-- Tabellen
+- [Layout (Header, Navigation, Inhaltsbereich, Footer)](src/styles/layout.scss)
+- [Farbschema](src/styles/colors.scss)
+- [Bilder und Videos](src/styles/media.scss)
+- [Typographie](src/styles/typography.scss)
+- [Buttons und Links](src/styles/buttons.scss)
+- [Tabellen](src/styles/tables.scss)
 
 ## Setup
 
