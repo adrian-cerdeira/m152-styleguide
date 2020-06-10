@@ -36,6 +36,12 @@ ul {
     list-style-type: none;
 }
 
+.underline {
+    margin: auto;
+    max-width: 50rem;
+    border-top: 0.2rem grey solid;
+}
+
 .content-right {
     text-align: right;
 }

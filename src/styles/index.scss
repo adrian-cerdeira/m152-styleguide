@@ -2,6 +2,7 @@
 @import './layout.scss';
 @import './colors.scss';
 @import './media.scss';
+@import './typography.scss';
 
 /*** Global Styles ***/
 body {
@@ -9,23 +10,6 @@ body {
     margin-bottom: 7rem;
     font-family: $font;
 }
-
-/**
-    Typographie
- */
-h1,
-h2 {
-    color: $primary;
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-bottom: 0;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
 
 /**
     Tables
