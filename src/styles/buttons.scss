@@ -1,0 +1,51 @@
+/*** Buttons ***/
+$button-foreground: white;
+
+.button {
+    display: inline-block;
+    padding: 1.5rem 1.5rem;
+    color: $button-foreground;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    transition: background-color 0.25s;
+    margin-bottom: 0.5rem;
+}
+
+.button-primary {
+    background-color: $secondary;
+}
+
+.button-primary:hover {
+    background-color: #abffcb;
+    color: $button-foreground;
+}
+
+.button-secondary {
+    background-color: $contrast_primary;
+    color: $button-foreground;
+}
+
+.button-secondary:hover {
+    background-color: orange;
+    color: $button-foreground;
+}
+
+.button-light {
+    background-color: $contrast_secondary;
+    color: $button-foreground;
+}
+
+.button-light:hover {
+    background-color: #ea3d34;
+    color: $button-foreground;
+}
+
+/*** Sizes ***/
+.is-small {
+    padding: 0.5rem 1rem;
+}
+
+.is-large {
+    padding: 2.5rem 2.5rem;
+}

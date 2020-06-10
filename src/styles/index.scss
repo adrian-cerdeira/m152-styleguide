@@ -3,6 +3,7 @@
 @import './colors.scss';
 @import './media.scss';
 @import './typography.scss';
+@import './buttons.scss';
 
 /*** Global Styles ***/
 body {
@@ -43,53 +44,4 @@ body {
 
 .table-striped tbody tr:nth-child(even) {
     background-color: #eee;
-}
-
-/**
-    Buttons
- */
-.button {
-    display: inline-block;
-    padding: 15px 15px;
-    color: black;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.25s;
-    margin-bottom: 5px;
-}
-
-/** Sizes **/
-.button-small {
-    padding: 5px 10px;
-}
-
-.button-big {
-    padding: 25px 25px;
-}
-
-/** Colors **/
-.button-primary {
-    background-color: $secondary;
-}
-
-.button-primary:hover {
-    background-color: #abffcb;
-}
-
-.button-secondary {
-    background-color: $contrast_primary;
-    color: white;
-}
-
-.button-secondary:hover {
-    background-color: $contrast_secondary;
-}
-
-.button-light {
-    background-color: $contrast_secondary;
-    color: white;
-}
-
-.button-light:hover {
-    background-color: #ea3d34;
 }
