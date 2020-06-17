@@ -39,15 +39,24 @@
 }
 
 .content-right {
-    text-align: right;
+    text-align: right !important;
 }
 
 .content-left {
-    text-align: left;
+    text-align: left !important;
 }
 
 .content-center {
-    text-align: center;
+    text-align: center !important;
+}
+
+/*** Sizes ***/
+.is-small {
+    padding: 0.5rem 1rem !important;
+}
+
+.is-large {
+    padding: 2.5rem 2.5rem !important;
 }
 
 /*** Footer ***/
