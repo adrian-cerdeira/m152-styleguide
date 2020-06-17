@@ -10,7 +10,7 @@ Abgabe eines Styleguides mit Definition von folgenden Elementen:
 - [Farbschema](src/styles/colors.scss)
 - [Bilder und Videos](src/styles/media.scss)
 - [Typographie](src/styles/typography.scss)
-- [Buttons und Links](src/styles/buttons.scss)
+- [Buttons](src/styles/buttons.scss) und [Links](src/styles/links.scss)
 - [Tabellen](src/styles/tables.scss)
 
 ## Setup
