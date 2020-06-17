@@ -1,5 +1,5 @@
 /*** Variables ***/
-@import './variables.scss';
+@import './styles/variables.scss';
 
 /*** Global Styles ***/
 body {
@@ -18,10 +18,10 @@ ul {
 }
 
 /*** CSS Styleguid - Anforderungen ***/
-@import './layout.scss';
-@import './colors.scss';
-@import './media.scss';
-@import './typography.scss';
-@import './buttons.scss';
-@import './links.scss';
-@import './tables.scss';
+@import './styles/layout.scss';
+@import './styles/colors.scss';
+@import './styles/media.scss';
+@import './styles/typography.scss';
+@import './styles/buttons.scss';
+@import './styles/links.scss';
+@import './styles/tables.scss';
