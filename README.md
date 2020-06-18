@@ -1,6 +1,7 @@
 # Info
 
 - Tooling mit [Webpack](https://webpack.js.org/)
+- Hosting bei Firebase unter [m152-adrian-cerdeira-styleguid.web.app](https://m152-adrian-cerdeira-styleguid.web.app/)
 
 Projekt im Modul 152.
 
