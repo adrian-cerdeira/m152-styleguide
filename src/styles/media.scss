@@ -1,13 +1,15 @@
 /*** Images ***/
+.images {
+    display: inline-flex;
+}
+
 .image {
     z-index: -1;
-    display: inline-block;
     position: relative;
     overflow: hidden;
     border-radius: 1.5rem;
 
     .caption {
-        display: inline-block;
         position: absolute;
         left: 0;
         bottom: 0;
