@@ -7,27 +7,31 @@
     background-color: $background;
     text-transform: uppercase;
 
-    a.nav-brand {
+    a {
         float: left;
-        font-size: 2rem;
-        font-weight: bold;
-        color: $primary;
-        text-align: center;
-        padding: 1.4rem 1.6rem;
-    }
-
-    a.nav-item {
-        float: left;
-        font-size: 1.7rem;
         color: $primary;
         text-align: center;
         text-decoration: none;
+    }
+
+    a.nav-brand {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 1.4rem 1.6rem;
+    }
+
+    a.nav-brand:hover {
+        color: $primary;
+    }
+
+    a.nav-item {
+        font-size: 1.7rem;
         padding: 2rem 1.6rem;
     }
 
     a.nav-item:hover {
-        background-color: $contrast_primary;
-        color: $contrast_secondary;
+        background-color: $secondary;
+        color: $background;
     }
 }
 

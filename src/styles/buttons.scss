@@ -1,5 +1,6 @@
 /*** Buttons ***/
 $button-foreground: white;
+$button-background: black;
 
 .button {
     display: inline-block;
@@ -13,30 +14,31 @@ $button-foreground: white;
 }
 
 .button-primary {
-    background-color: $secondary;
+    background-color: $primary;
 }
 
 .button-primary:hover {
-    background-color: #abffcb;
-    color: $button-foreground;
-}
-
-.button-secondary {
     background-color: $contrast_primary;
     color: $button-foreground;
 }
 
-.button-secondary:hover {
-    background-color: orange;
+.button-secondary {
+    background-color: $secondary;
     color: $button-foreground;
 }
 
-.button-light {
+.button-secondary:hover {
     background-color: $contrast_secondary;
     color: $button-foreground;
 }
 
+.button-light {
+    background-color: $button-foreground;
+    border: 0.1rem $button-background solid;
+    color: $button-background;
+}
+
 .button-light:hover {
-    background-color: #ea3d34;
+    background-color: $button-background;
     color: $button-foreground;
 }

@@ -26,9 +26,9 @@
 }
 
 .table-bordered {
-    border: 0.1rem solid $contrast-primary;
+    border: 0.1rem solid $primary;
 
     tr {
-        border-bottom: 1rem solid $contrast-primary;
+        border-bottom: 1rem solid $primary;
     }
 }
